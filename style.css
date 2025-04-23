@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    perspective: 1000px;
+}
+
+.container {
+    width: 100%;
+    max-width: 2000px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px blue;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.container:hover {
+    
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    color:royalblue;
+}
+
+header p {
+    font-size: 1.2em;
+    color: royalblue;
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2 {
+    color: royalblue;
+    font-size: 2em;
+}
+
+.card {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px royalblue;
+    padding: 20px;
+    margin: 15px;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+   
+}
+
+.card-content p {
+    color: royalblue;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px royalblue;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: rotateX(10deg) scale(1.05);
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2 {
+    color: royalblue;
+    font-size: 2em;
+}
+
+.card {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px royalblue;
+    padding: 20px;
+    margin: 15px;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: rotateY(15deg) scale(1.05);
+}
+
+.card-content p {
+    color: royalblue;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.Skills-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Skills-card {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px royalblue;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+}
+
+.Skills-card:hover {
+    transform: rotateX(10deg) scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: royalblue;
+}
+
+
+
+
+
